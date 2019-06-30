@@ -9,3 +9,15 @@ function fn(arr){
    return max;
 }
 // console.log(fn([0,8,7]));
+
+
+
+//求n-m区间的所有数的和
+function Section(n,m){
+    var sum = 0;
+    for(var i = n; i <= m; i++){
+       sum += i;
+    }
+    return sum ;
+}
+
